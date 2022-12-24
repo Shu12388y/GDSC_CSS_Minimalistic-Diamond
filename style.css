@@ -1,0 +1,110 @@
+html,
+body {
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+}
+
+
+.body{
+    position: relative;
+}
+/* upper top part */
+
+
+.triangle-01 {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 80px solid #e8c08f;
+    position: absolute;
+    left: 40.5%;
+    top: 37%;
+   
+
+
+}
+
+.triangle-02 {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 80px solid #e8c08f;
+    position: absolute;
+    left: 47%;
+    top: 37%;
+    
+
+
+}
+
+.triangle-03 {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 80px solid #c29f75;
+    position: absolute;
+    left: 37.3%;
+    top: 37%;
+}
+
+.triangle-04{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 80px solid #c29f75;
+    position: absolute;
+    left: 43.8%;
+    top: 37%;
+}
+.triangle-05{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 80px solid #c29f75;
+    position: absolute;
+    left: 50.2%;
+    top: 37%;
+
+}
+
+.lower01{
+    width: 6px;
+    height: -3px;
+    border-left: 58px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 200px solid #d6af84;
+    position: absolute;
+    left: 43.7%;
+    top: 47.6%;
+}
+
+
+.lower02{
+    width: 1px;
+    height: 44px;
+    border-left: 34px solid transparent;
+    border-right: 62px solid transparent;
+    border-top: 206px solid #e9bf8f;
+    position: absolute;
+    left: 47.4%;
+    top: 47.6%;
+    transform: skewX(160deg);
+
+}
+.lower03{
+    width: -7px;
+    height: 23px;
+    border-left: 26px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 206px solid #e9bf8f;
+    position: absolute;
+    left: 42.3%;
+    top: 47.6%;
+    transform: skewX(33deg);
+}
